@@ -1,8 +1,6 @@
 @import 
 "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 nav {
 	width: 100%;
 	
@@ -30,7 +28,9 @@ header {
 	width: 50%;
 	height: 20px;
 	font-size: 15px;
-	
+	float: left;
+	border: 1px solid #a6a6a6;
+	padding: 3px 16px;
 }
 
 #logo {
@@ -39,10 +39,10 @@ header {
 }
 
 .btn {
-  background-color: gray; /* Blue background */
-  border: none; /* Remove borders */
-  color: white; /* White text */
-  padding: 6px 16px; /* Some padding */
-  font-size: 12px; /* Set a font size */
-  cursor: pointer; /* Mouse pointer on hover */
+  height: 28px;
+  background-color: #e0e0e0;
+  color: #7f7f7f;
+  font-size: 15px;
+  padding: 0px 16px;
+  border-style: solid;
 }
