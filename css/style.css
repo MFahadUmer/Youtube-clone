@@ -1,0 +1,129 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://fonts.googleapis.com/css?family=Roboto:400,700";
+body {
+    max-width: 900px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    border-style: solid;
+    border-color: #ececec;
+    border-width: 0.25px;
+    font-size: 12px;
+}
+
+nav {
+    width: 100%;
+    position: relative;
+}
+
+.container {
+    width: 90%;
+    padding-right: 100px;
+    ;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-wrap: wrap;
+    }
+}
+
+#searchbar {
+    width: 50%;
+    height: 20px;
+    font-size: 15px;
+    padding: 3px 16px;
+}
+
+#logo {
+    padding-right: 20px;
+}
+
+.btn {
+    background-color: #dbdbdb;
+    color: #777777;
+    padding: 6px 16px;
+    font-size: 15px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #c7c7c7;
+}
+
+.content {
+    width: 75%;
+    display: flex;
+    align-content: center;
+}
+
+.sidebar {
+    padding: 16px;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#video {
+    align-items: center;
+    padding: 16px;
+    width: 500px;
+    flex-direction: row;
+}
+
+#maincontainer {
+    display: flex;
+}
+
+#thumbnails {
+    display: flex;
+}
+
+#thumb_summary {
+    padding: 16px;
+}
+
+#userinfo {
+    display: flex;
+}
+
+#subscribe_button {
+    padding-top: 10px;
+}
+
+.btn2 {
+    background-color: white;
+    color: #777777;
+    padding: 6px 16px;
+    font-size: 15px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+.btn3 {
+    background-color: dodgerblue;
+    color: #ffffff;
+    padding: 6px 16px;
+    font-size: 15px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+#button_section {
+    display: flex;
+}
